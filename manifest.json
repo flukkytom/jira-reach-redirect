@@ -1,12 +1,15 @@
 {
-  "name": "JIRA redirect",
-  "description": "Yes",
+  "name": "JIRA Reach Redirect",
+  "description": "New Jira sucks! well for most people. Here is a quick way to have what you used to know back. get instant redirect to old Jira",
   "version": "1.0",
   "manifest_version": 2,
   "background": {"scripts":["background.js"]},
+  "icons": {
+	"128": "icon_reach.png"
+  },
   "permissions": [
     "webRequest",
-    "*://blacklinegps.atlassian.net/*",
+    "*://withreach.atlassian.net/*",
     "webRequestBlocking"
   ]
 }
